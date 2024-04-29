@@ -1,12 +1,12 @@
+import React from "react";
 
-import './App.css';
+import TypingExercise from "./components/TypingExercise";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Typing App</h1>
-      </header>
+    <div>
+      <TypingExercise />
     </div>
   );
 }
